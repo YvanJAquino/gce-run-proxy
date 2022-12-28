@@ -2,7 +2,7 @@
 A container based reverse proxy for Cloud Run.
 
 ## Motivation
-- Sometimes you need a reverse proxy for Cloud Run to meet specific customer requirements such as private Dialogflow CX -> Cloud Run
+Sometimes you need a reverse proxy for Cloud Run to meet specific customer requirements such as private Dialogflow CX -> Cloud Run
 
 ## Features
 - Provides basic Health Checks at /health/check (HTTPS) for load balancers.  Returns 200, Status OK when the service is up.
